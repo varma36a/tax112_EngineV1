@@ -117,3 +117,52 @@ tr:hover {
 .low-conf {
     background: rgba(255, 0, 0, 0.15);
 }
+
+.explain-box {
+    margin-top: 40px;
+    background: #0f172a;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.metric-cards {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border-bottom: 1px solid #334155;
+}
+
+.feature-row {
+    margin-top: 10px;
+}
+
+.bar {
+    background: #1e293b;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.fill {
+    background: #22c55e;
+    height: 100%;
+    border-radius: 5px;
+}

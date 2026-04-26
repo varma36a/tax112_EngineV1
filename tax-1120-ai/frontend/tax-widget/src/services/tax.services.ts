@@ -1,5 +1,5 @@
-import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
     providedIn: 'root'
@@ -15,5 +15,9 @@ export class TaxService {
         formData.append('file', file);
 
         return this.http.post(`${this.apiUrl}/upload-tb`, formData);
+    }
+
+    getExplainability() {
+        return this.http.get(`${this.apiUrl}/explainability`);
     }
 }

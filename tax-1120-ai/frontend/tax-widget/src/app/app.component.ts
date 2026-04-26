@@ -19,10 +19,20 @@ export class AppComponent implements AfterViewInit {
   loading = false;
   totalLowConfidence = 0;
 
+  objectKeys = Object.keys; // ✅ FIX for HTML error
+
   pieChart: any;
   barChart: any;
 
+  explainability: any;
+
+
+
   constructor(private taxService: TaxService) { }
+
+  ngOnInit() {
+    this.loadExplainability();
+  }
 
   ngAfterViewInit() { }
 
@@ -36,10 +46,14 @@ export class AppComponent implements AfterViewInit {
     ).length;
   }
 
+
+  loadExplainability() {
+    this.taxService.getExplainability().subscribe(res => {
+      this.explainability = res;
+    });
+  }
+
   onUpload() {
-
-
-
 
     if (!this.selectedFile) {
       alert("Select file");

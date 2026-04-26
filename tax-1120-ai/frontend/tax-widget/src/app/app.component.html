@@ -7,6 +7,7 @@
 
   <div *ngIf="loading">Processing...</div>
 
+
   <!-- KPI CARDS -->
   <div class="cards" *ngIf="result">
 
@@ -115,6 +116,50 @@
 
       </tbody>
     </table>
+
+
+
+    <div *ngIf="explainability" class="explain-box">
+
+      <h2>📊 Model Explainability Dashboard</h2>
+
+      <!-- Accuracy -->
+      <div class="metric-cards">
+        <div class="card">Accuracy: {{explainability.accuracy | number:'1.2-2'}}</div>
+        <div class="card">Macro F1: {{explainability.macro_avg['f1-score'] | number:'1.2-2'}}</div>
+        <div class="card">Weighted F1: {{explainability.weighted_avg['f1-score'] | number:'1.2-2'}}</div>
+      </div>
+
+      <!-- Class Metrics -->
+      <h3>📌 Class Performance</h3>
+      <table>
+        <tr>
+          <th>Category</th>
+          <th>Precision</th>
+          <th>Recall</th>
+          <th>F1</th>
+        </tr>
+
+        <tr *ngFor="let key of objectKeys(explainability.class_metrics)">
+          <td>{{key}}</td>
+          <td>{{explainability.class_metrics[key].precision | number:'1.2-2'}}</td>
+          <td>{{explainability.class_metrics[key].recall | number:'1.2-2'}}</td>
+          <td>{{explainability.class_metrics[key]['f1-score'] | number:'1.2-2'}}</td>
+        </tr>
+      </table>
+
+      <!-- Feature Importance -->
+      <h3>🔥 Top Features</h3>
+      <div *ngFor="let f of explainability.top_features" class="feature-row">
+        <span>{{f.feature}}</span>
+        <div class="bar">
+          <div class="fill" [style.width.%]="f.importance * 100"></div>
+        </div>
+      </div>
+
+    </div>
+
+
 
   </div>
 

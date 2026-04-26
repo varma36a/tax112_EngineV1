@@ -7,8 +7,14 @@ from app.services.tax_engine import apply_tax_rules
 from app.services.form1120 import generate_1120
 from app.services.advisor import generate_advice
 from app.services.explainer import generate_explanation
+from app.services.explainability import get_model_explainability
+
 
 router = APIRouter()
+
+@router.get("/explainability")
+def explainability():
+    return get_model_explainability()
 
 
 @router.post("/upload-tb")
