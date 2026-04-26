@@ -1,4 +1,6 @@
 import joblib
+import numpy as np
+from app.services.irs_mapping import IRS_MAP
 
 model = joblib.load("app/ml/xgb_model.pkl")
 vectorizer = joblib.load("app/ml/vectorizer.pkl")
@@ -15,5 +17,8 @@ def classify_accounts(df):
     df["confidence"] = probs.max(axis=1)
 
     df.loc[df["confidence"] < 0.6, "category"] = "review_needed"
+
+    # IRS mapping
+    df["irs_section"] = df["category"].map(IRS_MAP)
 
     return df

@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+/* GLOBAL DARK THEME */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background: #020617;
+    /* deep dark */
+    color: #e2e8f0;
+    /* light text */
+    font-family: 'Inter', sans-serif;
+}
+
+/* Scrollbar (optional but nice) */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 4px;
+}

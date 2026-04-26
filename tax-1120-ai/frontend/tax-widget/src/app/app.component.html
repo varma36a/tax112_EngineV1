@@ -1,38 +1,68 @@
 <div class="container">
 
-  <h1>1120 Tax Engine 🚀</h1>
 
   <!-- Upload -->
-  <div class="card">
-    <input type="file" (change)="onFileChange($event)" />
-    <button (click)="upload()">Upload</button>
-  </div>
+  <input type="file" (change)="onFileSelected($event)" />
+  <button (click)="onUpload()">Upload</button>
+
+  <div *ngIf="loading">Processing...</div>
 
   <!-- KPI CARDS -->
-  <div class="summary">
-    <div class="summary-card">
+  <div class="cards" *ngIf="result">
+
+    <div class="card">
       <h3>Revenue</h3>
-      <p>{{result?.gross_receipts | number}}</p>
+      <p>{{result.gross_receipts | number}}</p>
     </div>
 
-    <div class="summary-card">
+    <div class="card">
       <h3>Deductions</h3>
-      <p>{{result?.deductions | number}}</p>
+      <p>{{result.deductions | number}}</p>
     </div>
 
-    <div class="summary-card">
+    <div class="card">
       <h3>Taxable Income</h3>
-      <p>{{result?.taxable_income | number}}</p>
+      <p>{{result.taxable_income | number}}</p>
     </div>
 
-    <div class="summary-card">
-      <h3>Tax (21%)</h3>
-      <p>{{result?.tax | number}}</p>
+    <div class="card highlight">
+      <h3>Tax</h3>
+      <p>{{result.tax | number}}</p>
     </div>
+
+  </div>
+
+  <!-- INSIGHTS -->
+  <div *ngIf="preview.length" class="insights">
+
+    <h2>📊 Insights</h2>
+
+    <p>⚠️ Low Confidence Accounts: {{totalLowConfidence}}</p>
+
+    <p *ngIf="result.taxable_income > 0">
+      💡 Consider increasing deductions to reduce tax
+    </p>
+
+  </div>
+
+  <!-- ADVISOR -->
+  <div *ngIf="advice.length">
+
+    <h2>💡 Tax Advisor</h2>
+
+    <div *ngFor="let a of advice" class="advisor-card">
+
+      <h4>{{a.account}}</h4>
+      <p>{{a.advice}}</p>
+      <p class="impact">Impact: {{a.impact | number}}</p>
+
+    </div>
+
   </div>
 
   <!-- TABLE -->
-  <div class="card">
+  <div *ngIf="preview.length">
+
     <h2>Trial Balance Mapping</h2>
 
     <table>
@@ -41,32 +71,26 @@
           <th>Account</th>
           <th>Amount</th>
           <th>Category</th>
+          <th>IRS</th>
           <th>Confidence</th>
         </tr>
       </thead>
 
       <tbody>
-        <tr *ngFor="let row of preview" [ngClass]="{'low-confidence': row.confidence < 0.6}">
+
+        <tr *ngFor="let row of preview" [ngClass]="{'low-conf': row.confidence < 0.6}">
 
           <td>{{row.account_name}}</td>
-          <td>{{row.amount}}</td>
-
-          <td>
-            <select [(ngModel)]="row.category">
-              <option value="revenue">Revenue</option>
-              <option value="expense">Expense</option>
-              <option value="disallowed">Disallowed</option>
-              <option value="review_needed">Review</option>
-            </select>
-          </td>
-
+          <td>{{row.amount | number}}</td>
+          <td>{{row.category}}</td>
+          <td>{{row.irs_section}}</td>
           <td>{{row.confidence | number:'1.2-2'}}</td>
 
         </tr>
+
       </tbody>
     </table>
 
-    <button (click)="recalculate()">Recalculate</button>
   </div>
 
 </div>
