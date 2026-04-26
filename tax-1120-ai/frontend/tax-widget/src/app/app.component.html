@@ -32,6 +32,19 @@
 
   </div>
 
+  <div class="charts" *ngIf="result">
+
+    <div class="chart-box">
+      <h3>Category Breakdown</h3>
+      <canvas id="pieChart"></canvas>
+    </div>
+
+    <div class="chart-box">
+      <h3>Financial Overview</h3>
+      <canvas id="barChart"></canvas>
+    </div>
+
+  </div>
   <!-- INSIGHTS -->
   <div *ngIf="preview.length" class="insights">
 
@@ -58,6 +71,18 @@
 
     </div>
 
+  </div>
+
+  <div *ngIf="advice?.length">
+    <h2>💡 Tax Advisor Insights</h2>
+
+    <div *ngFor="let a of advice" class="advisor-card">
+      <h4>{{a.account}}</h4>
+      <p><b>Category:</b> {{a.category}}</p>
+      <p><b>Confidence:</b> {{a.confidence}}</p>
+      <p><b>Impact:</b> {{a.impact}}</p>
+      <p><b>Advice:</b> {{a.advice}}</p>
+    </div>
   </div>
 
   <!-- TABLE -->

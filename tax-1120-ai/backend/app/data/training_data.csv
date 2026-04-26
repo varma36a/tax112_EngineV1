@@ -1,0 +1,69 @@
+account_name,category
+Sales Revenue,income
+Service Revenue,income
+Consulting Income,income
+Product Sales,income
+Subscription Revenue,income
+Interest Income,income
+Rental Income,income
+Commission Income,income
+Other Income,income
+Gain on Sale,income
+Office Rent,expense
+Employee Salary,expense
+Wages Expense,expense
+Utilities Expense,expense
+Electricity Expense,expense
+Water Expense,expense
+Internet Expense,expense
+Telephone Expense,expense
+Insurance Expense,expense
+Travel Expense,expense
+Transportation Expense,expense
+Advertising Expense,expense
+Marketing Expense,expense
+Legal Fees,expense
+Professional Fees,expense
+Accounting Fees,expense
+Maintenance Expense,expense
+Repairs Expense,expense
+Supplies Expense,expense
+Office Supplies,expense
+Software Expense,expense
+Subscription Expense,expense
+Training Expense,expense
+Bank Charges,expense
+Interest Expense,expense
+Client Meals,meals
+Business Meals,meals
+Team Lunch,meals
+Food Expense,meals
+Entertainment Meals,meals
+Penalty Expense,penalty
+Late Fee Penalty,penalty
+IRS Penalty,penalty
+Compliance Penalty,penalty
+Depreciation Expense,depreciation
+Amortization Expense,depreciation
+Asset Depreciation,depreciation
+Charitable Donations,charity
+Donations,charity
+CSR Expense,charity
+Cost of Goods Sold,cogs
+COGS,cogs
+Inventory Cost,cogs
+Raw Material Cost,cogs
+Employee Bonus,expense
+Payroll Taxes,expense
+Recruitment Expense,expense
+Consulting Expense,expense
+Freight Expense,expense
+Shipping Expense,expense
+Warehouse Expense,expense
+Capital Equipment,asset
+Office Furniture,asset
+Computer Equipment,asset
+Machinery,asset
+Dividends Paid,non_deductible
+Owner Draw,non_deductible
+Personal Expense,non_deductible

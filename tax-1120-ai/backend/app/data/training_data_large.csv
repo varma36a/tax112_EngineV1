@@ -1,0 +1,535 @@
+account_name,category
+Sales Revenue,income
+Sales Revenue - India,income
+Sales Revenue - US,income
+Sales Revenue FY2024,income
+Sales Revenue Expense,income
+Sales Revenue Cost,income
+Product Sales,income
+Product Sales - India,income
+Product Sales - US,income
+Product Sales FY2024,income
+Product Sales Expense,income
+Product Sales Cost,income
+Service Revenue,income
+Service Revenue - India,income
+Service Revenue - US,income
+Service Revenue FY2024,income
+Service Revenue Expense,income
+Service Revenue Cost,income
+Consulting Income,income
+Consulting Income - India,income
+Consulting Income - US,income
+Consulting Income FY2024,income
+Consulting Income Expense,income
+Consulting Income Cost,income
+Subscription Revenue,income
+Subscription Revenue - India,income
+Subscription Revenue - US,income
+Subscription Revenue FY2024,income
+Subscription Revenue Expense,income
+Subscription Revenue Cost,income
+Annual Subscription Income,income
+Annual Subscription Income - India,income
+Annual Subscription Income - US,income
+Annual Subscription Income FY2024,income
+Annual Subscription Income Expense,income
+Annual Subscription Income Cost,income
+Monthly Subscription Revenue,income
+Monthly Subscription Revenue - India,income
+Monthly Subscription Revenue - US,income
+Monthly Subscription Revenue FY2024,income
+Monthly Subscription Revenue Expense,income
+Monthly Subscription Revenue Cost,income
+Commission Income,income
+Commission Income - India,income
+Commission Income - US,income
+Commission Income FY2024,income
+Commission Income Expense,income
+Commission Income Cost,income
+Brokerage Income,income
+Brokerage Income - India,income
+Brokerage Income - US,income
+Brokerage Income FY2024,income
+Brokerage Income Expense,income
+Brokerage Income Cost,income
+Interest Income,income
+Interest Income - India,income
+Interest Income - US,income
+Interest Income FY2024,income
+Interest Income Expense,income
+Interest Income Cost,income
+Bank Interest Income,income
+Bank Interest Income - India,income
+Bank Interest Income - US,income
+Bank Interest Income FY2024,income
+Bank Interest Income Expense,income
+Bank Interest Income Cost,income
+Rental Income,income
+Rental Income - India,income
+Rental Income - US,income
+Rental Income FY2024,income
+Rental Income Expense,income
+Rental Income Cost,income
+Lease Income,income
+Lease Income - India,income
+Lease Income - US,income
+Lease Income FY2024,income
+Lease Income Expense,income
+Lease Income Cost,income
+Other Income,income
+Other Income - India,income
+Other Income - US,income
+Other Income FY2024,income
+Other Income Expense,income
+Other Income Cost,income
+Miscellaneous Income,income
+Miscellaneous Income - India,income
+Miscellaneous Income - US,income
+Miscellaneous Income FY2024,income
+Miscellaneous Income Expense,income
+Miscellaneous Income Cost,income
+Gain on Sale,income
+Gain on Sale - India,income
+Gain on Sale - US,income
+Gain on Sale FY2024,income
+Gain on Sale Expense,income
+Gain on Sale Cost,income
+Asset Sale Gain,income
+Asset Sale Gain - India,income
+Asset Sale Gain - US,income
+Asset Sale Gain FY2024,income
+Asset Sale Gain Expense,income
+Asset Sale Gain Cost,income
+Foreign Income,income
+Foreign Income - India,income
+Foreign Income - US,income
+Foreign Income FY2024,income
+Foreign Income Expense,income
+Foreign Income Cost,income
+Dividend Income,income
+Dividend Income - India,income
+Dividend Income - US,income
+Dividend Income FY2024,income
+Dividend Income Expense,income
+Dividend Income Cost,income
+Royalty Income,income
+Royalty Income - India,income
+Royalty Income - US,income
+Royalty Income FY2024,income
+Royalty Income Expense,income
+Royalty Income Cost,income
+Office Rent,expense
+Office Rent - India,expense
+Office Rent - US,expense
+Office Rent FY2024,expense
+Office Rent Expense,expense
+Office Rent Cost,expense
+Building Rent,expense
+Building Rent - India,expense
+Building Rent - US,expense
+Building Rent FY2024,expense
+Building Rent Expense,expense
+Building Rent Cost,expense
+Office Lease Rent,expense
+Office Lease Rent - India,expense
+Office Lease Rent - US,expense
+Office Lease Rent FY2024,expense
+Office Lease Rent Expense,expense
+Office Lease Rent Cost,expense
+Commercial Rent,expense
+Commercial Rent - India,expense
+Commercial Rent - US,expense
+Commercial Rent FY2024,expense
+Commercial Rent Expense,expense
+Commercial Rent Cost,expense
+Warehouse Rent,expense
+Warehouse Rent - India,expense
+Warehouse Rent - US,expense
+Warehouse Rent FY2024,expense
+Warehouse Rent Expense,expense
+Warehouse Rent Cost,expense
+Employee Salary,expense
+Employee Salary - India,expense
+Employee Salary - US,expense
+Employee Salary FY2024,expense
+Employee Salary Expense,expense
+Employee Salary Cost,expense
+Staff Salary,expense
+Staff Salary - India,expense
+Staff Salary - US,expense
+Staff Salary FY2024,expense
+Staff Salary Expense,expense
+Staff Salary Cost,expense
+Monthly Wages,expense
+Monthly Wages - India,expense
+Monthly Wages - US,expense
+Monthly Wages FY2024,expense
+Monthly Wages Expense,expense
+Monthly Wages Cost,expense
+Contractor Payment,expense
+Contractor Payment - India,expense
+Contractor Payment - US,expense
+Contractor Payment FY2024,expense
+Contractor Payment Expense,expense
+Contractor Payment Cost,expense
+Consulting Expense,expense
+Consulting Expense - India,expense
+Consulting Expense - US,expense
+Consulting Expense FY2024,expense
+Consulting Expense Expense,expense
+Consulting Expense Cost,expense
+Professional Fees,expense
+Professional Fees - India,expense
+Professional Fees - US,expense
+Professional Fees FY2024,expense
+Professional Fees Expense,expense
+Professional Fees Cost,expense
+Legal Fees,expense
+Legal Fees - India,expense
+Legal Fees - US,expense
+Legal Fees FY2024,expense
+Legal Fees Expense,expense
+Legal Fees Cost,expense
+Accounting Fees,expense
+Accounting Fees - India,expense
+Accounting Fees - US,expense
+Accounting Fees FY2024,expense
+Accounting Fees Expense,expense
+Accounting Fees Cost,expense
+Audit Fees,expense
+Audit Fees - India,expense
+Audit Fees - US,expense
+Audit Fees FY2024,expense
+Audit Fees Expense,expense
+Audit Fees Cost,expense
+Utilities Expense,expense
+Utilities Expense - India,expense
+Utilities Expense - US,expense
+Utilities Expense FY2024,expense
+Utilities Expense Expense,expense
+Utilities Expense Cost,expense
+Electricity Expense,expense
+Electricity Expense - India,expense
+Electricity Expense - US,expense
+Electricity Expense FY2024,expense
+Electricity Expense Expense,expense
+Electricity Expense Cost,expense
+Water Expense,expense
+Water Expense - India,expense
+Water Expense - US,expense
+Water Expense FY2024,expense
+Water Expense Expense,expense
+Water Expense Cost,expense
+Gas Expense,expense
+Gas Expense - India,expense
+Gas Expense - US,expense
+Gas Expense FY2024,expense
+Gas Expense Expense,expense
+Gas Expense Cost,expense
+Internet Expense,expense
+Internet Expense - India,expense
+Internet Expense - US,expense
+Internet Expense FY2024,expense
+Internet Expense Expense,expense
+Internet Expense Cost,expense
+Broadband Expense,expense
+Broadband Expense - India,expense
+Broadband Expense - US,expense
+Broadband Expense FY2024,expense
+Broadband Expense Expense,expense
+Broadband Expense Cost,expense
+Telephone Expense,expense
+Telephone Expense - India,expense
+Telephone Expense - US,expense
+Telephone Expense FY2024,expense
+Telephone Expense Expense,expense
+Telephone Expense Cost,expense
+Mobile Expense,expense
+Mobile Expense - India,expense
+Mobile Expense - US,expense
+Mobile Expense FY2024,expense
+Mobile Expense Expense,expense
+Mobile Expense Cost,expense
+Insurance Expense,expense
+Insurance Expense - India,expense
+Insurance Expense - US,expense
+Insurance Expense FY2024,expense
+Insurance Expense Expense,expense
+Insurance Expense Cost,expense
+Health Insurance,expense
+Health Insurance - India,expense
+Health Insurance - US,expense
+Health Insurance FY2024,expense
+Health Insurance Expense,expense
+Health Insurance Cost,expense
+Travel Expense,expense
+Travel Expense - India,expense
+Travel Expense - US,expense
+Travel Expense FY2024,expense
+Travel Expense Expense,expense
+Travel Expense Cost,expense
+Business Travel Expense,expense
+Business Travel Expense - India,expense
+Business Travel Expense - US,expense
+Business Travel Expense FY2024,expense
+Business Travel Expense Expense,expense
+Business Travel Expense Cost,expense
+Airfare Expense,expense
+Airfare Expense - India,expense
+Airfare Expense - US,expense
+Airfare Expense FY2024,expense
+Airfare Expense Expense,expense
+Airfare Expense Cost,expense
+Hotel Expense,expense
+Hotel Expense - India,expense
+Hotel Expense - US,expense
+Hotel Expense FY2024,expense
+Hotel Expense Expense,expense
+Hotel Expense Cost,expense
+Transportation Expense,expense
+Transportation Expense - India,expense
+Transportation Expense - US,expense
+Transportation Expense FY2024,expense
+Transportation Expense Expense,expense
+Transportation Expense Cost,expense
+Fuel Expense,expense
+Fuel Expense - India,expense
+Fuel Expense - US,expense
+Fuel Expense FY2024,expense
+Fuel Expense Expense,expense
+Fuel Expense Cost,expense
+Vehicle Maintenance,expense
+Vehicle Maintenance - India,expense
+Vehicle Maintenance - US,expense
+Vehicle Maintenance FY2024,expense
+Vehicle Maintenance Expense,expense
+Vehicle Maintenance Cost,expense
+Advertising Expense,expense
+Advertising Expense - India,expense
+Advertising Expense - US,expense
+Advertising Expense FY2024,expense
+Advertising Expense Expense,expense
+Advertising Expense Cost,expense
+Marketing Expense,expense
+Marketing Expense - India,expense
+Marketing Expense - US,expense
+Marketing Expense FY2024,expense
+Marketing Expense Expense,expense
+Marketing Expense Cost,expense
+Office Supplies,expense
+Office Supplies - India,expense
+Office Supplies - US,expense
+Office Supplies FY2024,expense
+Office Supplies Expense,expense
+Office Supplies Cost,expense
+Software Expense,expense
+Software Expense - India,expense
+Software Expense - US,expense
+Software Expense FY2024,expense
+Software Expense Expense,expense
+Software Expense Cost,expense
+Client Meals,meals
+Client Meals - India,meals
+Client Meals - US,meals
+Client Meals FY2024,meals
+Client Meals Expense,meals
+Client Meals Cost,meals
+Business Meals,meals
+Business Meals - India,meals
+Business Meals - US,meals
+Business Meals FY2024,meals
+Business Meals Expense,meals
+Business Meals Cost,meals
+Team Lunch,meals
+Team Lunch - India,meals
+Team Lunch - US,meals
+Team Lunch FY2024,meals
+Team Lunch Expense,meals
+Team Lunch Cost,meals
+Food Expense,meals
+Food Expense - India,meals
+Food Expense - US,meals
+Food Expense FY2024,meals
+Food Expense Expense,meals
+Food Expense Cost,meals
+Entertainment Meals,meals
+Entertainment Meals - India,meals
+Entertainment Meals - US,meals
+Entertainment Meals FY2024,meals
+Entertainment Meals Expense,meals
+Entertainment Meals Cost,meals
+Lunch Expense,meals
+Lunch Expense - India,meals
+Lunch Expense - US,meals
+Lunch Expense FY2024,meals
+Lunch Expense Expense,meals
+Lunch Expense Cost,meals
+Dinner Meeting,meals
+Dinner Meeting - India,meals
+Dinner Meeting - US,meals
+Dinner Meeting FY2024,meals
+Dinner Meeting Expense,meals
+Dinner Meeting Cost,meals
+Penalty Expense,penalty
+Penalty Expense - India,penalty
+Penalty Expense - US,penalty
+Penalty Expense FY2024,penalty
+Penalty Expense Expense,penalty
+Penalty Expense Cost,penalty
+Late Fee Penalty,penalty
+Late Fee Penalty - India,penalty
+Late Fee Penalty - US,penalty
+Late Fee Penalty FY2024,penalty
+Late Fee Penalty Expense,penalty
+Late Fee Penalty Cost,penalty
+IRS Penalty,penalty
+IRS Penalty - India,penalty
+IRS Penalty - US,penalty
+IRS Penalty FY2024,penalty
+IRS Penalty Expense,penalty
+IRS Penalty Cost,penalty
+Compliance Penalty,penalty
+Compliance Penalty - India,penalty
+Compliance Penalty - US,penalty
+Compliance Penalty FY2024,penalty
+Compliance Penalty Expense,penalty
+Compliance Penalty Cost,penalty
+Late Filing Penalty,penalty
+Late Filing Penalty - India,penalty
+Late Filing Penalty - US,penalty
+Late Filing Penalty FY2024,penalty
+Late Filing Penalty Expense,penalty
+Late Filing Penalty Cost,penalty
+Depreciation Expense,depreciation
+Depreciation Expense - India,depreciation
+Depreciation Expense - US,depreciation
+Depreciation Expense FY2024,depreciation
+Depreciation Expense Expense,depreciation
+Depreciation Expense Cost,depreciation
+Amortization Expense,depreciation
+Amortization Expense - India,depreciation
+Amortization Expense - US,depreciation
+Amortization Expense FY2024,depreciation
+Amortization Expense Expense,depreciation
+Amortization Expense Cost,depreciation
+Asset Depreciation,depreciation
+Asset Depreciation - India,depreciation
+Asset Depreciation - US,depreciation
+Asset Depreciation FY2024,depreciation
+Asset Depreciation Expense,depreciation
+Asset Depreciation Cost,depreciation
+Equipment Depreciation,depreciation
+Equipment Depreciation - India,depreciation
+Equipment Depreciation - US,depreciation
+Equipment Depreciation FY2024,depreciation
+Equipment Depreciation Expense,depreciation
+Equipment Depreciation Cost,depreciation
+Charitable Donations,charity
+Charitable Donations - India,charity
+Charitable Donations - US,charity
+Charitable Donations FY2024,charity
+Charitable Donations Expense,charity
+Charitable Donations Cost,charity
+Donations,charity
+Donations - India,charity
+Donations - US,charity
+Donations FY2024,charity
+Donations Expense,charity
+Donations Cost,charity
+CSR Expense,charity
+CSR Expense - India,charity
+CSR Expense - US,charity
+CSR Expense FY2024,charity
+CSR Expense Expense,charity
+CSR Expense Cost,charity
+Community Donation,charity
+Community Donation - India,charity
+Community Donation - US,charity
+Community Donation FY2024,charity
+Community Donation Expense,charity
+Community Donation Cost,charity
+Cost of Goods Sold,cogs
+Cost of Goods Sold - India,cogs
+Cost of Goods Sold - US,cogs
+Cost of Goods Sold FY2024,cogs
+Cost of Goods Sold Expense,cogs
+Cost of Goods Sold Cost,cogs
+COGS,cogs
+COGS - India,cogs
+COGS - US,cogs
+COGS FY2024,cogs
+COGS Expense,cogs
+COGS Cost,cogs
+Inventory Cost,cogs
+Inventory Cost - India,cogs
+Inventory Cost - US,cogs
+Inventory Cost FY2024,cogs
+Inventory Cost Expense,cogs
+Inventory Cost Cost,cogs
+Raw Material Cost,cogs
+Raw Material Cost - India,cogs
+Raw Material Cost - US,cogs
+Raw Material Cost FY2024,cogs
+Raw Material Cost Expense,cogs
+Raw Material Cost Cost,cogs
+Production Cost,cogs
+Production Cost - India,cogs
+Production Cost - US,cogs
+Production Cost FY2024,cogs
+Production Cost Expense,cogs
+Production Cost Cost,cogs
+Capital Equipment,asset
+Capital Equipment - India,asset
+Capital Equipment - US,asset
+Capital Equipment FY2024,asset
+Capital Equipment Expense,asset
+Capital Equipment Cost,asset
+Office Furniture,asset
+Office Furniture - India,asset
+Office Furniture - US,asset
+Office Furniture FY2024,asset
+Office Furniture Expense,asset
+Office Furniture Cost,asset
+Computer Equipment,asset
+Computer Equipment - India,asset
+Computer Equipment - US,asset
+Computer Equipment FY2024,asset
+Computer Equipment Expense,asset
+Computer Equipment Cost,asset
+Machinery,asset
+Machinery - India,asset
+Machinery - US,asset
+Machinery FY2024,asset
+Machinery Expense,asset
+Machinery Cost,asset
+IT Hardware,asset
+IT Hardware - India,asset
+IT Hardware - US,asset
+IT Hardware FY2024,asset
+IT Hardware Expense,asset
+IT Hardware Cost,asset
+Dividends Paid,non_deductible
+Dividends Paid - India,non_deductible
+Dividends Paid - US,non_deductible
+Dividends Paid FY2024,non_deductible
+Dividends Paid Expense,non_deductible
+Dividends Paid Cost,non_deductible
+Owner Draw,non_deductible
+Owner Draw - India,non_deductible
+Owner Draw - US,non_deductible
+Owner Draw FY2024,non_deductible
+Owner Draw Expense,non_deductible
+Owner Draw Cost,non_deductible
+Personal Expense,non_deductible
+Personal Expense - India,non_deductible
+Personal Expense - US,non_deductible
+Personal Expense FY2024,non_deductible
+Personal Expense Expense,non_deductible
+Personal Expense Cost,non_deductible
+Non Business Expense,non_deductible
+Non Business Expense - India,non_deductible
+Non Business Expense - US,non_deductible
+Non Business Expense FY2024,non_deductible
+Non Business Expense Expense,non_deductible
+Non Business Expense Cost,non_deductible
